@@ -2,9 +2,6 @@ from html2image import Html2Image
 import os
 import pandas as pd
 import argparse
-from pandas import ExcelWriter
-from pandas import ExcelFile
-
 
 def main():
     parser = argparse.ArgumentParser(description="Create Google Form confession images")
