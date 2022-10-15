@@ -17,7 +17,11 @@ The default html file to reference is `mimic.html`. The default output folder is
 **CLI Flags**
 |Flag|Expected Input|Remarks|
 |---|---|---|
-|`--file`, `-f`|`str`, A file path|Path of referenced excel file|
+|`--file`, `-f`|`str`, A file path|(Optional) Path of referenced excel file|
 |`--question`, `-q`|`str`|Set question for the form; do note that this has to be the same as the column name in the excel file to work|
-|`--save-path`, `-s`, `-o`|`str`, A file path|Output path for image(s)|
-|`--model`, `-m`|`str`, A file path|Path to model HTML file|
+|`--save-path`, `-s`, `-o`|`str`, A file path|(Optional) Output path for image(s)|
+|`--model`, `-m`|`str`, A file path|(Optional) Path to model HTML file|
+
+**Usage**
+
+`python main.py -f <path_to_excel_file> -q <your_question> -s <save_path> -m <path_to_html_model>`
